@@ -1,0 +1,499 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: white;
+}
+
+ul,li
+{
+    display: flex;
+    margin-left: 50px;
+}
+
+ul
+{
+    margin-left: 55%;
+}
+
+li
+{
+    color:  whitesmoke;
+    font-size: 20px;
+}
+
+a
+{
+    text-decoration: none; 
+    color: black;  
+}
+
+ul:hover
+{
+    color: black;
+}
+
+header
+{
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo
+{
+    margin-left: -215%;
+    margin-top: -5%;
+}
+
+.brand
+{
+    margin-top: -35px;
+    margin-left: 10px;
+}
+
+.nike
+{
+    margin-left: 45%;
+}
+
+.nikeshoes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nikeshoe1
+{
+    border: 2px solid black;
+    width: 270px;
+    height: 300px;
+}
+ 
+.nikeshoe2
+{ 
+    border: 2px solid black;
+    width: 270px;
+    height: 300px;
+}
+
+.nikeshoe3
+{
+    border: 2px solid black;
+    width: 270px;
+    height: 300px;
+}
+
+.nikeshoe4
+{  
+    border: 2px solid black;
+    width: 270px;
+    height: 300px;
+}
+
+.usuf
+{
+    background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%)
+}
+
+.usuf 
+{
+   width: 90px;
+   margin-left: 85%;
+   margin-top: 25px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+}
+
+.usuf:hover 
+{
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+}
+
+
+.puma
+{
+    margin-left: 45%;
+}
+
+.pumashoes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    
+.pumashoe1
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 320px;
+}
+
+.pumashoe2
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 320px; 
+}
+
+.pumashoe3
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 320px; 
+}
+
+.pumashoe4
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 320px; 
+}
+
+.adidas
+{
+    margin-left: 45%;
+}
+
+.adidasshoes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.adidasshoe1
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 290px; 
+}
+
+.adidasshoe2
+{
+    border: 2px solid black;
+    width: 250px;
+    height:  290px; 
+}
+
+.adidasshoe3
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 290px; 
+}
+
+.adidasshoe4
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 290px; 
+}
+
+.airjordan
+{
+    margin-left: 45%;
+}
+
+.airjordanshoes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.airjordanshoe1
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 290px; 
+}
+
+.airjordanshoe2
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 290px; 
+}
+
+.airjordanshoe3
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 290px; 
+}
+
+.airjordanshoe4
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 290px; 
+}
+
+.reebok
+{
+    margin-left: 45%; 
+}
+
+.reebokshoes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reebokshoe1
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 290px; 
+}
+
+.reebokshoe2
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 290px; 
+}
+
+.reebokshoe3
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 290px; 
+}
+
+.reebokshoe4
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 290px; 
+}
+ 
+u
+{
+    color: whitesmoke;
+    
+}
+
+@media screen and (max-width:450px) 
+{
+    
+    .usuf
+    {
+        background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%)
+    }
+    
+    .usuf 
+    {
+       width: 310px;
+       margin-left: 5px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+    }
+    
+    .usuf:hover 
+    {
+       background-position: right center; 
+       color: #fff;
+       text-decoration: none;
+    }
+    .logo
+    {
+        margin-left: -380px; 
+        margin-top: -10%;
+    }
+
+    .brand
+    {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    ul,li
+    {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    ul
+    {
+        margin-left: 12%;
+    }
+
+    li
+    {
+        color:  whitesmoke;
+        font-size: 15px;
+    }
+
+    .nikeshoes
+    {
+        margin-left: 20%;
+    }
+
+    .nikeshoe2
+    {
+        margin-top: 10%;
+    }
+
+    .nikeshoe3
+    {
+        margin-top: 10%;
+    }
+
+    .nikeshoe4
+    {
+        margin-top: 10%;
+    }
+
+    .nike
+    {
+        margin-left: 35%;
+    }
+
+    .puma
+    {
+        margin-left: 35%;
+    }
+
+    .pumashoes
+    {
+        margin-left: 20%;
+    }
+        
+    .pumashoe1
+    {
+        margin-top: 10%;
+    }
+
+    .pumashoe2
+    {
+        margin-top: 10%;
+    }
+
+    .pumashoe3
+    {
+        margin-top: 10%;
+    }
+
+    .pumashoe4
+    {
+        margin-top: 10%;
+    }
+
+    .adidas
+    {
+        margin-left: 35%;
+    }
+
+    .adidasshoes
+    {
+        margin-left: 20%; 
+    }
+
+    .adidasshoe1
+    {
+        margin-top: 10%;
+    }
+
+    .adidasshoe2
+    {
+        margin-top: 10%;
+    }
+
+    .adidasshoe3
+    {
+        margin-top: 10%;
+    }
+
+    .adidasshoe4
+    {
+        margin-top: 10%;
+    }
+
+    .airjordan
+    {
+        margin-left: 35%;
+    }
+
+    .airjordanshoes
+    {
+        margin-left: 20%;   
+    }
+
+    .airjordanshoe1
+    {
+        margin-top: 10%;
+    }
+
+    .airjordanshoe2
+    {
+        margin-top: 10%;
+    }
+
+    .airjordanshoe3
+    {
+        margin-top: 10%;
+    }
+
+    .airjordanshoe4
+    {
+        margin-top: 10%;
+    }
+
+    .reebok
+    {
+        margin-left: 35%; 
+    }
+
+    .reebokshoes
+    {
+        margin-left: 20%;
+    }
+
+    .reebokshoe1
+    {
+        margin-top: 10%;
+    }
+
+    .reebokshoe2
+    {
+        margin-top: 10%;
+    }
+
+    .reebokshoe3
+    {
+        margin-top: 10%;
+    }
+
+    .reebokshoe4
+    {
+        margin-top: 10%;
+    }
+
+}

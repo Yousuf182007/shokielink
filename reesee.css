@@ -1,0 +1,130 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: white;
+}
+
+ul,li
+{
+    display: flex;
+    margin-left: 40px;
+}
+
+ul
+{
+    margin-left: 55%;
+}
+
+li
+{
+    color:  whitesmoke;
+    font-size: 20px;
+}
+a
+{
+    text-decoration: none; 
+    color: black;  
+}
+
+
+
+ul:hover
+{
+    color: black;
+}
+
+header
+{
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo
+{
+    margin-left: -210%;
+    margin-top: -5%;
+}
+
+.brand
+{
+    color: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    margin-top: -35px;
+    margin-left: 10px;
+}
+
+.reebok
+{
+    margin-left: 45%;
+}
+
+.reerow1,.reerow2,.reerow3,.reerow4,.reerow5,.reerow6
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ree1,.ree2,.ree3,.ree4,.ree5,.ree6,.ree7,.ree8,.ree9,.ree10,.ree11,.ree12,.ree13,.ree14,.ree15,.ree16,.ree17,.ree18,.ree19,.ree20,.ree21,.ree22,.ree23,.ree24
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+}
+
+@media screen and (max-width:450px) 
+{
+
+    
+    .logo
+    {
+        margin-left: -365px; 
+        margin-top: -12%;
+    }
+
+    .brand
+    {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+  
+    ul,li
+    {
+        display: flex;
+        margin-left: 20px;
+    }
+    
+    ul
+    {
+        margin-left: 15%;
+    }
+    
+    li
+    {
+        color:  whitesmoke;
+        font-size: 10px;
+    }
+
+    .reerow1,.reerow2,.reerow3,.reerow4,.reerow5,.reerow6
+    {
+    margin-left: 20%;
+    }
+
+    .ree2,.ree3,.ree4,.ree5,.ree6,.ree7,.ree8,.ree9,.ree10,.ree11,.ree12,.ree13,.ree14,.ree15,.ree16,.ree17,.ree18,.ree19,.ree20,.ree21,.ree22,.ree23,.ree24
+    {
+        margin-top: 10%;
+    }
+
+    .reebok
+    {
+        margin-left: 35%;
+    }
+
+}

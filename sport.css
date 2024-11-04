@@ -1,0 +1,123 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: white;
+}
+
+ul,li
+{
+    display: flex;
+    margin-left: 40px;
+}
+
+ul
+{
+    margin-left: 55%;
+}
+
+li
+{
+    color:  whitesmoke;
+    font-size: 20px;
+}
+a
+{
+    text-decoration: none; 
+    color: black;  
+}
+
+
+
+ul:hover
+{
+    color: black;
+}
+
+header
+{
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo
+{
+    margin-left: -210%;
+    margin-top: -5%;
+}
+
+.brand
+{
+    color: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    margin-top: -35px;
+    margin-left: 10px;
+}
+
+u
+{
+    color: aliceblue;
+}
+
+.sportrow1,.sportrow2,.sportrow3,.sportrow4,.sportrow5
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sport1,.sport2,.sport3,.sport4,.sport5,.sport6,.sport7,.sport8,.sport9,.sport10,.sport11,.sport12,.sport13,.sport14,.sport15,.sport16,.sport17,.sport18,.sport19,.sport20
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+}
+
+@media screen and (max-width:450px) 
+{
+    .logo
+    {
+        margin-left: -380px; 
+        margin-top: -10%;
+    }
+
+    .brand
+    {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    ul,li
+    {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    ul
+    {
+        margin-left: 12%;
+    }
+
+    li
+    {
+        color:  whitesmoke;
+        font-size: 15px;
+    }
+
+    .sportrow1,.sportrow2,.sportrow3,.sportrow4,.sportrow5
+    {
+        margin-left: 20%;
+    }
+
+     .sport2,.sport3,.sport4,.sport5,.sport6,.sport7,.sport8,.sport9,.sport10,.sport11,.sport12,.sport13,.sport14,.sport15,.sport16,.sport17,.sport18,.sport19,.sport20
+    {
+        margin-top: 10%;
+    }
+
+}

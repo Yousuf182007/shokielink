@@ -1,0 +1,129 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: white;
+}
+
+ul,li
+{
+    display: flex;
+    margin-left: 40px;
+}
+
+ul
+{
+    margin-left: 55%;
+}
+
+li
+{
+    color:  whitesmoke;
+    font-size: 20px;
+}
+a
+{
+    text-decoration: none; 
+    color: black;  
+}
+
+
+
+ul:hover
+{
+    color: black;
+}
+
+header
+{
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo
+{
+    margin-left: -210%;
+    margin-top: -5%;
+}
+
+.brand
+{
+    color: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    margin-top: -35px;
+    margin-left: 10px;
+}
+
+.nike
+{
+    margin-left: 45%;
+}
+
+.nikerow1,.nikerow2,.nikerow3,.nikerow4,.nikerow5,.nikerow6,.nikerow7
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nike1,.nike2,.nike3,.nike4,.nike5,.nike5,.nike6,.nike7,.nike8,.nike9,.nike10,.nike11,.nike12,.nike13,.nike14,.nike15,.nike16,.nike17,.nike18,.nike19,.nike20,.nike21,.nike22,.nike23,.nike24,.nike25,.nike26,.nike27,.nike28
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+}
+
+@media screen and (max-width:450px) 
+{
+
+    .logo
+    {
+        margin-left: -365px; 
+        margin-top: -12%;
+    }
+
+    .brand
+    {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+      
+    ul,li
+    {
+        display: flex;
+        margin-left: 20px;
+    }
+    
+    ul
+    {
+        margin-left: 15%;
+    }
+    
+    li
+    {
+        color:  whitesmoke;
+        font-size: 10px;
+    }
+
+    .nike
+    {
+        margin-left: 35%;
+    }
+
+    .nikerow1,.nikerow2,.nikerow3,.nikerow4,.nikerow5,.nikerow6,.nikerow7
+    {
+         margin-left: 20%;
+    }
+
+    .nike2,.nike3,.nike4,.nike5,.nike5,.nike6,.nike7,.nike8,.nike9,.nike10,.nike11,.nike12,.nike13,.nike14,.nike15,.nike16,.nike17,.nike18,.nike19,.nike20,.nike21,.nike22,.nike23,.nike24,.nike25,.nike26,.nike27,.nike28
+    {
+        margin-top: 10%;
+    }
+}

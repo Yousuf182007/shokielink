@@ -1,0 +1,122 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: white;
+}
+
+ul,li
+{
+    display: flex;
+    margin-left: 40px;
+}
+
+ul
+{
+    margin-left: 55%;
+}
+
+li
+{
+    color:  whitesmoke;
+    font-size: 20px;
+}
+a
+{
+    text-decoration: none; 
+    color: black;  
+}
+
+ul:hover
+{
+    color: black;
+}
+
+header
+{
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo
+{
+    margin-left: -210%;
+    margin-top: -5%;
+}
+
+.brand
+{
+    color: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    margin-top: -35px;
+    margin-left: 10px;
+}
+
+u
+{
+    color: aliceblue;
+}
+
+.casualrow1,.casualrow2,.casualrow3,.casualrow4,.casualrow5
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.casual1,.casual2,.casual3,.casual4,.casual5,.casual6,.casual7,.casual8,.casual9,.casual10,.casual11,.casual12,.casual13,.casual14,.casual15,.casual16,.casual17,.casual18,.casual19,.casual20
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+}
+
+@media screen and (max-width:450px) 
+{
+
+    .logo
+    {
+        margin-left: -380px; 
+        margin-top: -10%;
+    }
+
+    .brand
+    {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    ul,li
+    {
+        display: flex;
+        margin-left: 10px;
+    }
+
+    ul
+    {
+        margin-left: 12%;
+    }
+
+    li
+    {
+        color:  whitesmoke;
+        font-size: 15px;
+    }
+
+    .casualrow1,.casualrow2,.casualrow3,.casualrow4,.casualrow5
+    {
+        margin-left: 20%;
+    }
+
+    .casual2,.casual3,.casual4,.casual5,.casual6,.casual7,.casual8,.casual9,.casual10,.casual11,.casual12,.casual13,.casual14,.casual15,.casual16,.casual17,.casual18,.casual19,.casual20
+    {
+        margin-top: 10%;
+    }
+
+}

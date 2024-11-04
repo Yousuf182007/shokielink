@@ -1,0 +1,131 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: white;
+}
+
+ul,li
+{
+    display: flex;
+    margin-left: 40px;
+}
+
+ul
+{
+    margin-left: 55%;
+}
+
+li
+{
+    color:  whitesmoke;
+    font-size: 20px;
+}
+a
+{
+    text-decoration: none; 
+    color: black;  
+}
+
+
+
+ul:hover
+{
+    color: black;
+}
+
+header
+{
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo
+{
+    margin-left: -210%;
+    margin-top: -5%;
+}
+
+.brand
+{
+    color: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    margin-top: -35px;
+    margin-left: 10px;
+}
+
+.puma
+{
+    margin-left: 45%;
+}
+
+.pumarow1,.pumarow2,.pumarow3,.pumarow4,.pumarow5,.pumarow6,.pumarow7
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.puma1,.puma2,.puma3,.puma4,.puma5,.puma6,.puma7,.puma8,.puma9,.puma10,.puma11,.puma12,.puma13,.puma14,.puma15,.puma16,.puma17,.puma18,.puma19,.puma20,.puma21,.puma22,.puma23,.puma24,.puma25,.puma26,.puma27,.puma28
+{
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+}
+
+@media screen and (max-width:450px) 
+{
+
+    .logo
+    {
+        margin-left: -365px; 
+        margin-top: -12%;
+    }
+
+    .brand
+    {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+     
+    ul,li
+    {
+        display: flex;
+        margin-left: 20px;
+    }
+    
+    ul
+    {
+        margin-left: 15%;
+    }
+    
+    li
+    {
+        color:  whitesmoke;
+        font-size: 10px;
+    }
+
+    .puma
+    {
+        margin-left: 35%;
+    }
+
+    .pumarow1,.pumarow2,.pumarow3,.pumarow4,.pumarow5,.pumarow6,.pumarow7
+    {
+      margin-left: 20%;
+    }
+
+    .puma2,.puma3,.puma4,.puma5,.puma6,.puma7,.puma8,.puma9,.puma10,.puma11,.puma12,.puma13,.puma14,.puma15,.puma16,.puma17,.puma18,.puma19,.puma20,.puma21,.puma22,.puma23,.puma24,.puma25,.puma26,.puma27,.puma28
+    {
+         margin-top: 10%;
+    }
+
+
+}
+

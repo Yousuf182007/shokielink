@@ -1,0 +1,374 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: white;
+}
+
+ul,li
+{
+    display: flex;
+    margin-left: 40px;
+}
+
+ul
+{
+    margin-left: 55%;
+}
+
+li
+{
+    color:  whitesmoke;
+    font-size: 20px;
+}
+a
+{
+    text-decoration: none; 
+    color: black;  
+}
+
+u{
+   color: aliceblue;
+}
+
+ul:hover
+{
+    color: black;
+}
+
+header
+{
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    padding: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo
+{
+    margin-left: -205%;
+    margin-top: -5%;
+}
+
+.brand
+{
+    color: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    margin-top: -35px;
+    margin-left: 10px;
+}
+
+ 
+ .sneakersrow1
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .sneaker1
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker2
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker3
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker4
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneakersrow2
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .sneaker5
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker6
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker7
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker8
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneakersrow3
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ 
+ .sneaker9
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker10
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker11
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker12
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneakersrow4
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+ .sneaker13
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker14
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker15
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker16
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneakersrow5
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ 
+ .sneaker17
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker18
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker19
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+ .sneaker20
+ {
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+ }
+
+@media screen and (max-width:500px)
+{
+.logo
+{
+      margin-left: -365px; 
+      margin-top: -12%;
+}
+
+.brand
+{
+      font-size: 12px;
+      margin-left: 10px;
+}
+   
+  
+ul,li
+{
+    display: flex;
+    margin-left: 10px;
+}
+
+ul
+{
+    margin-left: 12%;
+}
+
+li
+{
+    color:  whitesmoke;
+    font-size: 15px;
+}
+
+.sneakersrow1,.sneakersrow2,.sneakersrow3,.sneakersrow4,.sneakersrow5
+{
+    margin-left: 20%;
+}
+
+.sneaker2
+{
+   margin-top: 10%;
+}
+
+.sneaker3
+{
+   margin-top: 10%;
+}
+
+.sneaker4
+{
+   margin-top: 10%;
+}
+
+.sneaker5
+{
+   margin-top: 10%;
+}
+
+.sneaker6
+{
+   margin-top: 10%;
+}
+
+.sneaker7
+{
+   margin-top: 10%;
+}
+
+.sneaker8
+{
+   margin-top: 10%;
+}
+
+.sneaker9
+{
+   margin-top: 10%;
+}
+
+.sneaker10
+{
+   margin-top: 10%;
+}
+
+.sneaker11
+{
+   margin-top: 10%;
+}
+
+.sneaker12
+{
+   margin-top: 10%;
+}
+
+.sneaker13
+{
+   margin-top: 10%;
+}
+
+.sneaker14
+{
+   margin-top: 10%;
+}
+
+.sneaker15
+{
+   margin-top: 10%;
+}
+
+.sneaker16
+{
+   margin-top: 10%;
+}
+
+.sneaker17
+{
+   margin-top: 10%;
+}
+
+.sneaker18
+{
+   margin-top: 10%;
+}
+
+.sneaker19
+{
+   margin-top: 10%;
+}
+
+.sneaker20
+{
+   margin-top: 10%;
+}
+
+ }
