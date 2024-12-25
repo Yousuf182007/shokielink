@@ -1,64 +1,69 @@
-*
+*,
+*::before,
+*::after 
 {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body
 {
-    background-color: white;
+    font-family: "Lato", sans-serif;
+    background-color: WHITE;
+    justify-content: center;
+    align-items: center;
 }
 
-ul,li
+.wrapper 
+{
+    width: 100%;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(199, 32, 199) , aqua);
+    position: fixed;
+}
+
+nav 
 {
     display: flex;
-    margin-left: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 0.4rem;
 }
 
-ul
+nav .logo 
 {
-    margin-left: 55%;
+    font-weight: 700;
 }
 
-li
+nav ul 
 {
-    color:  whitesmoke;
-    font-size: 20px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
 }
-a
+
+nav a 
 {
-    text-decoration: none; 
-    color: black;  
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
 }
 
-
-
-ul:hover
+nav #toggle,
+nav label 
 {
-    color: black;
+    display: none;
 }
 
-header
+.brand h1
 {
-    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
-    padding: 40px;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+    margin-left: -450px;
 }
-
-.logo
-{
-    margin-left: -210%;
-    margin-top: -5%;
-}
-
-.brand
-{
-    color: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
-    margin-top: -35px;
-    margin-left: 10px;
-}
+  
 
 .nike
 {
@@ -69,49 +74,57 @@ header
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nike1,.nike2,.nike3,.nike4,.nike5,.nike5,.nike6,.nike7,.nike8,.nike9,.nike10,.nike11,.nike12,.nike13,.nike14,.nike15,.nike16,.nike17,.nike18,.nike19,.nike20,.nike21,.nike22,.nike23,.nike24,.nike25,.nike26,.nike27,.nike28
 {
     border: 2px solid black;
-    width: 250px;
+    width: 254px;
     height: 300px;
+    color: black;
+}
+
+@media (max-width: 40.625em) 
+{
+    nav .menu 
+    {
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    nav ul 
+    {
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem 0;
+    }
+
+    nav label 
+    {
+      display: inline-flex;
+      color: white;
+      cursor: pointer;
+    }
+
+    nav #toggle:checked ~ .menu 
+    {
+      height: 100%;
+    }
+
+    .brand h1
+    {
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: 0px;
+    }
+
 }
 
 @media screen and (max-width:450px) 
 {
-
-    .logo
-    {
-        margin-left: -365px; 
-        margin-top: -12%;
-    }
-
-    .brand
-    {
-        font-size: 12px;
-        margin-left: 10px;
-    }
-    
-      
-    ul,li
-    {
-        display: flex;
-        margin-left: 20px;
-    }
-    
-    ul
-    {
-        margin-left: 15%;
-    }
-    
-    li
-    {
-        color:  whitesmoke;
-        font-size: 10px;
-    }
-
     .nike
     {
         margin-left: 35%;
@@ -120,6 +133,7 @@ header
     .nikerow1,.nikerow2,.nikerow3,.nikerow4,.nikerow5,.nikerow6,.nikerow7
     {
          margin-left: 20%;
+         justify-content: space-between;
     }
 
     .nike2,.nike3,.nike4,.nike5,.nike5,.nike6,.nike7,.nike8,.nike9,.nike10,.nike11,.nike12,.nike13,.nike14,.nike15,.nike16,.nike17,.nike18,.nike19,.nike20,.nike21,.nike22,.nike23,.nike24,.nike25,.nike26,.nike27,.nike28

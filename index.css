@@ -1,61 +1,67 @@
-*
+*,
+*::before,
+*::after 
 {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body
 {
-    background-color: white;
+    font-family: "Lato", sans-serif;
+    background-color: WHITE;
+    justify-content: center;
+    align-items: center;
 }
 
-ul,li
+.wrapper 
+{
+    width: 100%;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(199, 32, 199) , aqua);
+    position: fixed;
+}
+
+nav 
 {
     display: flex;
-    margin-left: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 0.4rem;
 }
 
-ul
+nav .logo 
 {
-    margin-left: 55%;
+    font-weight: 700;
 }
 
-li
+nav ul 
 {
-    color:  whitesmoke;
-    font-size: 20px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
 }
 
-a
+nav a 
 {
-    text-decoration: none; 
-    color: black;  
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
 }
 
-ul:hover
+nav #toggle,
+nav label 
 {
-    color: black;
+    display: none;
 }
 
-header
+.brand h1
 {
-    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
-    padding: 40px;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-}
-
-.logo
-{
-    margin-left: -215%;
-    margin-top: -5%;
-}
-
-.brand
-{
-    margin-top: -35px;
-    margin-left: 10px;
+    margin-left: -450px;
 }
 
 .nike
@@ -67,35 +73,39 @@ header
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nikeshoe1
 {
     border: 2px solid black;
-    width: 270px;
+    width: 273px;
     height: 300px;
+    color: black;
 }
  
 .nikeshoe2
 { 
     border: 2px solid black;
-    width: 270px;
+    width: 273px;
     height: 300px;
+    color: black;
 }
 
 .nikeshoe3
 {
     border: 2px solid black;
-    width: 270px;
+    width: 273px;
     height: 300px;
+    color: black;
 }
 
 .nikeshoe4
 {  
     border: 2px solid black;
-    width: 270px;
+    width: 273px;
     height: 300px;
+    color: black;
 }
 
 .usuf
@@ -105,7 +115,7 @@ header
 
 .usuf 
 {
-   width: 90px;
+   width: 200px;
    margin-left: 85%;
    margin-top: 25px;
    padding: 15px 45px;
@@ -136,35 +146,39 @@ header
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
     
 .pumashoe1
 {
     border: 2px solid black;
-    width: 250px;
+    width: 254px;
     height: 320px;
+    color: black;
 }
 
 .pumashoe2
 {
     border: 2px solid black;
-    width: 250px;
+    width: 254px;
     height: 320px; 
+    color: black;
 }
 
 .pumashoe3
 {
     border: 2px solid black;
-    width: 250px;
+    width: 254px;
     height: 320px; 
+    color: black;
 }
 
 .pumashoe4
 {
     border: 2px solid black;
-    width: 250px;
+    width: 254px;
     height: 320px; 
+    color: black;
 }
 
 .adidas
@@ -176,7 +190,7 @@ header
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .adidasshoe1
@@ -184,6 +198,7 @@ header
     border: 2px solid black;
     width: 250px;
     height: 290px; 
+    color: black;
 }
 
 .adidasshoe2
@@ -191,6 +206,7 @@ header
     border: 2px solid black;
     width: 250px;
     height:  290px; 
+    color: black;
 }
 
 .adidasshoe3
@@ -198,6 +214,7 @@ header
     border: 2px solid black;
     width: 250px;
     height: 290px; 
+    color: black;
 }
 
 .adidasshoe4
@@ -205,6 +222,7 @@ header
     border: 2px solid black;
     width: 250px;
     height: 290px; 
+    color: black;
 }
 
 .airjordan
@@ -216,35 +234,39 @@ header
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .airjordanshoe1
 {
     border: 2px solid black;
-    width: 250px;
+    width: 254px;
     height: 290px; 
+    color: black;
 }
 
 .airjordanshoe2
 {
     border: 2px solid black;
-    width: 250px;
+    width: 253px;
     height: 290px; 
+    color: black;
 }
 
 .airjordanshoe3
 {
     border: 2px solid black;
-    width: 250px;
+    width: 253px;
     height: 290px; 
+    color: black;
 }
 
 .airjordanshoe4
 {
     border: 2px solid black;
-    width: 250px;
+    width: 253px;
     height: 290px; 
+    color: black;
 }
 
 .reebok
@@ -256,44 +278,81 @@ header
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .reebokshoe1
 {
     border: 2px solid black;
-    width: 250px;
+    width: 254px;
     height: 290px; 
+    color: black;
 }
 
 .reebokshoe2
 {
     border: 2px solid black;
-    width: 250px;
+    width: 254px;
     height: 290px; 
+    color: black;
 }
 
 .reebokshoe3
 {
     border: 2px solid black;
-    width: 250px;
+    width: 254px;
     height: 290px; 
+    color: black;
 }
 
 .reebokshoe4
 {
     border: 2px solid black;
-    width: 250px;
+    width: 254px;
     height: 290px; 
-}
- 
-u
-{
-    color: whitesmoke;
-    
+    color: black;
 }
 
-@media screen and (max-width:450px) 
+@media (max-width: 40.625em) 
+{
+    nav .menu 
+    {
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    nav ul 
+    {
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem 0;
+    }
+
+    nav label 
+    {
+      display: inline-flex;
+      color: white;
+      cursor: pointer;
+    }
+
+    nav #toggle:checked ~ .menu 
+    {
+      height: 100%;
+    }
+
+    .brand h1
+    {
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: 0px;
+    }
+
+}
+ 
+
+@media screen and (max-width:500px) 
 {
     
     .usuf
@@ -303,7 +362,7 @@ u
     
     .usuf 
     {
-       width: 310px;
+       width: 400px;
        margin-left: 5px;
        padding: 15px 45px;
        text-align: center;
@@ -322,38 +381,11 @@ u
        color: #fff;
        text-decoration: none;
     }
-    .logo
-    {
-        margin-left: -380px; 
-        margin-top: -10%;
-    }
-
-    .brand
-    {
-        font-size: 12px;
-        margin-left: 10px;
-    }
-    
-    ul,li
-    {
-        display: flex;
-        margin-left: 10px;
-    }
-
-    ul
-    {
-        margin-left: 12%;
-    }
-
-    li
-    {
-        color:  whitesmoke;
-        font-size: 15px;
-    }
 
     .nikeshoes
     {
         margin-left: 20%;
+        justify-content: space-between;
     }
 
     .nikeshoe2
@@ -383,6 +415,7 @@ u
 
     .pumashoes
     {
+        justify-content: space-between;
         margin-left: 20%;
     }
         
@@ -413,6 +446,7 @@ u
 
     .adidasshoes
     {
+        justify-content: space-between;
         margin-left: 20%; 
     }
 
@@ -443,6 +477,7 @@ u
 
     .airjordanshoes
     {
+        justify-content: space-between;
         margin-left: 20%;   
     }
 
@@ -473,6 +508,7 @@ u
 
     .reebokshoes
     {
+        justify-content: space-between;
         margin-left: 20%;
     }
 

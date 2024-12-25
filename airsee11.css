@@ -1,61 +1,67 @@
-
-*
+*,
+*::before,
+*::after 
 {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body
 {
-    background-color: white;
+    font-family: "Lato", sans-serif;
+    background-color: WHITE;
+    justify-content: center;
+    align-items: center;
 }
 
-ul,li
+.wrapper 
+{
+    width: 100%;
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(199, 32, 199) , aqua);
+    position: fixed;
+}
+
+nav 
 {
     display: flex;
-    margin-left: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-radius: 0.4rem;
 }
 
-ul
+nav .logo 
 {
-    margin-left: 55%;
+    font-weight: 700;
 }
 
-li
+nav ul 
 {
-    color:  whitesmoke;
-    font-size: 20px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
 }
 
-a
+nav a 
 {
-    text-decoration: none; 
-    color: black;  
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
 }
 
-ul:hover
+nav #toggle,
+nav label 
 {
-    color: black;
+    display: none;
 }
 
-header
+.brand h1
 {
-    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
-    padding: 40px;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-}
-
-.logo
-{
-    margin-left: -215%;
-    margin-top: -5%;
-}
-
-.brand
-{
-    margin-top: -35px;
+    margin-left: -450px;
 }
 
 .line
@@ -70,7 +76,7 @@ header
 .name
 {
     margin-left: 52%;
-    margin-top:-30%;
+    margin-top:-40%;
 }
 
 .lorem
@@ -78,7 +84,7 @@ header
     width: 550px;
     height: 300px;
     margin-left: 53%;
-    margin-top: -40%;
+    margin-top: -35%;
 }
 
 .button1
@@ -114,7 +120,7 @@ a:hover
 { 
     font-size: 25px;
     margin-left: 75%;
-    margin-top: -2.5%;
+    margin-top: -5%;
     border: 1px solid black;
     border-radius: 10px ;
     padding: 4.5px;
@@ -128,7 +134,7 @@ a:hover
     border-color: yellow;
 }
 
-.adidasshoes
+.airshoes
 {
     display: flex;
     margin-left: 52%;
@@ -136,77 +142,74 @@ a:hover
     margin-top: 5%;
 }
 
-.adidasshoe1
-{
-    border: 2px solid black;
-    padding: 4px;
-}
-
-.adidasshoe2
-{
-    border: 2px solid black;
-    padding: 4px;
-}
-
-.adidasshoe3
-{
-    border: 2px solid black;
-    padding: 4px;
-}
-
-.adidasshoe4
+.airsee11
 {
     width: 700px;
     margin-top: 100px;
 }
 
-@media screen and (max-width:500px) 
+.airsee12
 {
-    .usuf
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.airsee13
+{
+    border: 2px solid black;
+    padding: 4px;
+}
+
+.airsee14
+{
+    border: 2px solid black;
+    padding: 4px;
+}
+
+@media (max-width: 40.625em) 
+{
+    nav .menu 
     {
-        color: black;
-        font-size: 20px;
-        margin-left: 85%;
-        margin-top: 2%;
-        border: 1px solid black;
-        border-radius: 10px ;
-        padding: 4.5px;
-        width: 40px;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
     }
 
-    .logo
+    nav ul 
     {
-        margin-left: -380px; 
-        margin-top: -10%;
+      flex-direction: column;
+      align-items: center;
+      padding: 0.5rem 0;
     }
 
-    .brand
+    nav label 
     {
-        font-size: 12px;
-        margin-top: -30px;
-        margin-left: 5px;
-    }
-    
-    ul,li
-    {
-        display: flex;
-        margin-left: 10px;
+      display: inline-flex;
+      color: white;
+      cursor: pointer;
     }
 
-    ul
+    nav #toggle:checked ~ .menu 
     {
-        margin-left: 12%;
+      height: 100%;
     }
 
-    li
+    .brand h1
     {
-        color:  whitesmoke;
-        font-size: 15px;
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: 0px;
     }
-    
-    .adidasshoe4
+
+}
+
+@media screen and (max-width:500px) 
+{ 
+    .airsee11
     {
-        width: 400px;
+        width: 450px;
+        height: 350px;
     }
 
     .name
@@ -233,7 +236,7 @@ a:hover
     {
         font-size: 15px;
         margin-left: 25%;
-        margin-top: 19%;
+        margin-top: 70%;
         border: 1px solid black;
         border-radius: 10px ;
         padding: 4.5px;
@@ -244,34 +247,36 @@ a:hover
     {
         font-size: 15px;
         margin-left: 50%;
-        margin-top: -7.5%;
+        margin-top: -12%;
         border: 1px solid black;
         border-radius: 10px ;
         padding: 4.5px;
         width: 97px;
     }
 
-    .adidasshoe1
+    .airsee12
     {
        display: none;
     }
-    .adidasshoe3
+
+    .airsee13
     {
-        margin-top: 70px;
-        margin-left: -172px;
+        margin-top: 80px;
+        margin-left: -190px;
+        height: 110px;
+
+    }
+
+    .airsee14
+    {
+        margin-top: 80px;
+        margin-left: -800px;
         height: 110px;
     }
 
-    .adidasshoe2
+    .airshoes
     {
-       margin-top: 70px;
-       margin-left: -170px;
-       height: 110px;
-    }
-
-    .adidasshoes
-    {
-        margin-bottom: 80px;
+        margin-bottom: 150px;
     }
 
 }
