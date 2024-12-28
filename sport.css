@@ -132,3 +132,33 @@ nav label
     }
 
 }
+
+@media screen and (min-width: 500px) and (max-width:1100px) 
+{
+   .brand h1
+   {
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: -190px;
+   }
+
+    body
+   {
+        margin-bottom: 500px;
+   }
+
+   .sport2,.sport4,.sport6,.sport8,.sport10,.sport12,.sport14,.sport16,.sport18,.sport20
+   {
+        margin-right: 200px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+   }
+
+   .sport1,.sport3,.sport5,.sport7,.sport9,.sport11,.sport13,.sport15,.sport17,.sport19
+   {
+        margin-left: 160px;
+        margin-bottom: 100px;
+   }
+
+}

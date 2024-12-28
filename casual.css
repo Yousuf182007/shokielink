@@ -131,3 +131,33 @@ nav label
     }
 
 }
+
+@media screen and (min-width: 500px) and (max-width:1100px) 
+{
+   .brand h1
+   {
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: -190px;
+   }
+
+    body
+   {
+        margin-bottom: 500px;
+   }
+
+   .casual2,.casual4,.casual6,.casual8,.casual10,.casual12,.casual14,.casual16,.casual18,.casual20
+   {
+        margin-right: 200px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+   }
+
+   .casual1,.casual3,.casual5,.casual7,.casual9,.casual11,.casual13,.casual15,.casual17,.casual19
+   {
+        margin-left: 160px;
+        margin-bottom: 100px;
+   }
+
+}

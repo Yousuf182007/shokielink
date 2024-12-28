@@ -140,4 +140,35 @@ nav label
         margin-left: 35%;
     }
 
+}
+
+@media screen and (min-width: 500px) and (max-width:1100px) 
+{ 
+    .brand h1
+    {
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: -190px;
     }
+
+    body
+    {
+       margin-bottom: 550px;
+    }
+
+    .air2,.air4,.air6,.air8,.air10,.air12,.air14,.air16,.air18,.air20,.air22,.air24
+    {
+        margin-right: 200px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+     
+
+    .air1,.air3,.air5,.air7,.air9,.air11,.air13,.air15,.air17,.air19,.air21,.air23
+    {
+        margin-left: 160px;
+        margin-bottom: 100px;
+    }
+
+}

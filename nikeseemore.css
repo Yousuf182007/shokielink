@@ -141,3 +141,32 @@ nav label
         margin-top: 10%;
     }
 }
+
+@media screen and (min-width: 500px) and (max-width:1100px) 
+{ 
+    .brand h1
+    {
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: -190px;
+    }
+
+    body
+    {
+       margin-bottom: 450px;
+    }
+
+    .nike2,.nike4,.nike6,.nike8,.nike10,.nike12,.nike14,.nike16,.nike18,.nike20,.nike22,.nike24,.nike26,.nike28
+    {
+        margin-right: 200px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+
+    .nike1,.nike3,.nike5,.nike7,.nike9,.nike11,.nike13,.nike15,.nike17,.nike19,.nike21,.nike23,.nike25,.nike27
+    {
+        margin-left: 160px;
+        margin-bottom: 100px;
+    }
+}

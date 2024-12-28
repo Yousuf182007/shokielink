@@ -132,3 +132,34 @@ nav label
     }
 
 }
+
+@media screen and (min-width: 500px)and (max-width:1100px) 
+{
+   .brand h1
+   {
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: -190px;
+   }
+
+   body
+   {
+        margin-bottom: 500px;
+   }
+
+   .loafer2,.loafer4,.loafer6,.loafer8,.loafer10,.loafer12,.loafer14,.loafer16,.loafer18,.loafer20
+   {
+        margin-right: 200px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+   }
+
+   .loafer1,.loafer3,.loafer5,.loafer7,.loafer9,.loafer11,.loafer13,.loafer15,.loafer17,.loafer19
+    {
+        margin-left: 160px;
+        margin-bottom: 100px;
+    }
+
+
+}

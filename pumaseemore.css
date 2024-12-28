@@ -142,3 +142,31 @@ nav label
 
 }
 
+@media screen and (min-width: 500px) and (max-width:1100px) 
+{ 
+    .brand h1
+    {
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: -190px;
+    }
+
+    body
+    {
+       margin-bottom: 550px;
+    }
+
+    .puma2,.puma4,.puma6,.puma8,.puma10,.puma12,.puma14,.puma16,.puma18,.puma20,.puma22,.puma24,.puma26,.puma28
+    {
+        margin-right: 200px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+
+    .puma1,.puma3,.puma5,.puma7,.puma9,.puma11,.puma13,.puma15,.puma17,.puma19,.puma21,.puma23,.puma25,.puma27
+    {
+        margin-left: 160px;
+        margin-bottom: 100px;
+    }
+}

@@ -130,5 +130,34 @@ nav label
          margin-top: 10%;
     }
 
+}
+
+@media screen and (min-width: 500px)and (max-width:1100px) 
+{
+   .brand h1
+   {
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: -190px;
+   }
+
+   body
+   {
+        margin-bottom: 500px;
+   }
+
+   .formal2,.formal4,.formal6,.formal8,.formal10,.formal12,.formal14,.formal16,.formal18,.formal20
+   {
+        margin-right: 200px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+   }
+
+   .formal1,.formal3,.formal5,.formal7,.formal9,.formal11,.formal13,.formal15,.formal17,.formal19
+   {
+        margin-left: 160px;
+        margin-bottom: 100px;
+   }
 
 }

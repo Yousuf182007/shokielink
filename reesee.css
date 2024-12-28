@@ -142,3 +142,34 @@ nav label
     }
 
 }
+
+
+@media screen and (min-width: 500px) and (max-width:1100px) 
+{ 
+    .brand h1
+    {
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: -190px;
+    }
+
+    body
+    {
+       margin-bottom: 550px;
+    }
+
+    .ree2,.ree4,.ree6,.ree8,.ree10,.ree12,.ree14,.ree16,.ree18,.ree20,.ree22,.ree24
+    {
+        margin-right: 200px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+
+    .ree1,.ree3,.ree5,.ree7,.ree9,.ree11,.ree13,.ree15,.ree17,.ree19,.ree21,.ree23
+    {
+        margin-left: 160px;
+        margin-bottom: 100px;
+    }
+
+}

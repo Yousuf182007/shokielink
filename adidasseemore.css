@@ -140,3 +140,33 @@ nav label
         margin-top: 10%;
     }
 }
+
+@media screen and (min-width: 500px) and (max-width:1100px) 
+{ 
+    .brand h1
+    {
+        position: relative;
+        z-index: 1000;
+        font-weight: 1000;
+        margin-left: -190px;
+    }
+
+    body
+    {
+       margin-bottom: 550px;
+    }
+
+    .adi2,.adi4,.adi6,.adi8,.adi10,.adi12,.adi14,.adi16,.adi18,.adi20,.adi22,.adi24 
+    {
+        margin-right: 200px;
+        margin-left: 100px;
+        margin-bottom: 100px;
+    }
+
+    .adi1,.adi3,.adi5,.adi7,.adi9,.adi11,.adi13,.adi15,.adi17,.adi19,.adi21,.adi23
+    {
+        margin-left: 160px;
+        margin-bottom: 100px;
+    } 
+
+}
