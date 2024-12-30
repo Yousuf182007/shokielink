@@ -128,7 +128,7 @@ nav label
       cursor: pointer;
     }
 
-    nav #toggle:checked ~ .show 
+    nav #toggle:checked ~ .menu
     {
       height: 100%;
     }
